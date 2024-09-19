@@ -11,6 +11,10 @@ class App extends Component {
     this.props.getUsersRequest();
   }
 
+  handleSubmit = ({ firstName, lastName }) => {
+    console.log(firstName, lastName);
+  };
+
   render() {
     const users = this.props.users;
 
@@ -18,7 +22,7 @@ class App extends Component {
 
     return (
       <div style={{ margin: '0 auto', padding: '20px', maxWidth: '600px' }}>
-        <NewUserForm />
+        <NewUserForm onSubmit={this.handleSubmit} />
         <UsersList users={users.items} />
       </div>
     );
