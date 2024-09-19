@@ -3,13 +3,20 @@ import ReactDOM from 'react-dom/client';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 import axios from 'axios';
+import reducers from './reducers';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
 
 axios.defaults.baseURL = 'http://localhost:3004';
+
+const store = createStore(reducers);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>
 );
 
