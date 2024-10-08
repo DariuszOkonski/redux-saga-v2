@@ -2,7 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
+import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+axios.defaults.baseURL = 'http://localhost:3004';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
