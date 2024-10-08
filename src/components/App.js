@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class App extends Component {
   render() {
     return (
-      <div style={{ margin: '0 auto', padding: '20px', maxWidth: '600px' }}>
+      <div>
         <h1>Hello world</h1>
       </div>
     );
