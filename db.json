@@ -16,11 +16,6 @@
       "lastName": "Uzzle"
     },
     {
-      "id": 4,
-      "firstName": "Faustina",
-      "lastName": "Byfield"
-    },
-    {
       "id": 5,
       "firstName": "Robbie",
       "lastName": "Perdue"
@@ -31,19 +26,9 @@
       "lastName": "Lover"
     },
     {
-      "id": 7,
-      "firstName": "Etha",
-      "lastName": "Nolley"
-    },
-    {
       "id": 8,
       "firstName": "Jeremiah",
       "lastName": "Lindauer"
-    },
-    {
-      "id": 9,
-      "firstName": "Coreen",
-      "lastName": "Olin"
     },
     {
       "id": 10,
@@ -59,11 +44,6 @@
       "id": 12,
       "firstName": "Shana",
       "lastName": "Monty"
-    },
-    {
-      "firstName": "Adam",
-      "lastName": "Jones",
-      "id": 13
     }
   ]
 }
