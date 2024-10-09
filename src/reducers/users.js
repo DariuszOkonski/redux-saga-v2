@@ -11,6 +11,11 @@ export default function users(state = INITIAL_STATE, action) {
         items: action.payload.items,
       };
     }
+    // case Types.CREATE_USER_REQUEST: {
+    //   return {
+    //     items: []
+    //   }
+    // }
     default: {
       return state;
     }
